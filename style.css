@@ -1,0 +1,145 @@
+
+.mark{
+    color: lightsalmon;
+}
+.about-me{
+    margin-left: 5%;
+    width: 40%;
+    padding: 1%;
+    float: left;
+    
+
+}
+h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 20px;
+}
+.hello{
+    color: rgb(18, 18, 26);
+    opacity: .6;
+}
+ a {
+    text-decoration: none;
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    opacity: .8;
+}
+.about-me img{
+    width: 55%;
+}
+h2{
+    color: rgb(18, 18, 26);
+    opacity: .6;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+.gym{
+    width: 100%;
+    float: left;
+    padding: 5%;
+    margin-left: 1%;
+}
+.gym img{
+    width: 80%;
+
+}
+.tour{
+    width: 100%;
+    float: left;
+    padding: 5%;
+    margin-left: 1%;
+    
+    
+}
+.tour img{
+    width: 80%;
+}
+.song{
+    width: 100%;
+    float: left;
+    padding: 5%;
+    margin-left: 1%;
+
+    
+}
+.song img{
+    width: 80%;
+    
+}
+.combine{
+    display: inline-block;
+    background-color:whitesmoke;
+    height: 400px;
+    width: 100%;   
+    
+    
+}
+.combine h2{
+
+    text-align: center;
+    color: rgb(8, 3, 24);
+    opacity: .9;
+}
+.combine h3{
+    color: black;
+    opacity: .9;
+}
+.combine p{
+    color: black;
+    opacity: .9;
+    width: 85%;
+    font-size: 13px;
+    text-align: justify;
+}
+.lastest{
+    color: rgb(230, 49, 17);
+    opacity: 1;
+}
+.gym-top{
+    background-color:white;
+    
+    height: 80%;
+    width: 25%;
+    float: left;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+#margin{
+    margin-left: 12%;
+}
+.work{
+    background-image: url(images/work.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 200px;
+}
+.work h1{
+    
+    padding-top: 13%;
+    padding-left: 10%;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.work a{
+   
+    position: relative;
+    left: 75%;
+    bottom: 22%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    
+}
+.foot{
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;
+}
