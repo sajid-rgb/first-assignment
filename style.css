@@ -90,27 +90,9 @@ h2{
 .gym img{
     width: 80%;
 }
-.tour{
-    width: 100%;
-    float: left;
-    padding: 5%;
-    margin-left: 1%;
-}
-.tour img{
-    width: 80%;
-}
-.song{
-    width: 100%;
-    float: left;
-    padding: 5%;
-    margin-left: 1%;
-}
-.song img{
-    width: 80%;
-}
 .combine{
     display: inline-block;
-    background-color:white;
+    background-color:whitesmoke;
     height: 400px;
     width: 100%;   
     margin-top: 7%;
@@ -133,7 +115,7 @@ h2{
     color: #F46060;
 }
 .gym-top{
-    background-color:whitesmoke;
+    background-color:white;
     height: 80%;
     width: 25%;
     float: left;
