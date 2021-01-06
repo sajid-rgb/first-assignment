@@ -1,12 +1,13 @@
 
 .mark{
-    color: lightsalmon;
+    color: #FF8367;
 }
 .about-me{
     margin-left: 5%;
     width: 40%;
     padding: 1%;
     float: left;
+    margin-top: 5%;
     
 
 }
@@ -16,12 +17,11 @@ h1{
     line-height: 20px;
 }
 .hello{
-    color: rgb(18, 18, 26);
-    opacity: .6;
+    color: #363958;
 }
  a {
     text-decoration: none;
-    background-color: tomato;
+    background-color:tomato;
     border-radius: 5px;
     color: white;
     padding-left: 30px;
@@ -34,8 +34,7 @@ h1{
     width: 55%;
 }
 h2{
-    color: rgb(18, 18, 26);
-    opacity: .6;
+    color:#363958;
     font-size: 25px;
     text-transform: uppercase;
 
@@ -75,32 +74,29 @@ h2{
 }
 .combine{
     display: inline-block;
-    background-color:whitesmoke;
+    background-color:white;
     height: 400px;
     width: 100%;   
+    margin-top: 7%;
     
     
 }
 .combine h2{
 
     text-align: center;
-    color: rgb(8, 3, 24);
-    opacity: .9;
+    color: #363958;
 }
 .combine h3{
-    color: black;
-    opacity: .9;
+    color: #363958;
 }
 .combine p{
-    color: black;
-    opacity: .9;
+    color:#6c6c6c;
     width: 85%;
     font-size: 13px;
     text-align: justify;
 }
 .lastest{
-    color: rgb(230, 49, 17);
-    opacity: 1;
+    color: #F46060;
 }
 .gym-top{
     background-color:white;
@@ -114,12 +110,73 @@ h2{
 #margin{
     margin-left: 12%;
 }
+.skills{
+    display: inline-block;
+    height: 350px;
+    width: 80%;
+    
+    margin-top: 10%;
+    background-color: white;
+
+    
+}
+.skills h3{
+    text-align: center;
+    margin-left: 100px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+.skills p{
+    text-align: left;
+    margin-left: 350px;
+    font-size: 25px;
+    font-style:oblique;
+    color: black;
+}
+.hire{
+    color: tomato;
+}
+#hand{
+    width: 20%;
+    
+}
+#html{
+    width: 28%;
+    margin-top: 10px;
+    
+}
+#css{
+    margin-left: 20px;
+}
+#js{
+    position: relative;
+    left:260px;
+    bottom: 95px;
+    width: 38%;
+    
+}
+.html{
+    width:30%;
+    float: left;
+    margin-left: 200px;
+    position: relative;
+    left: 150px;
+    margin-top: 3%;
+    
+}
+.html img{
+    width: 20%;
+}
+
+
 .work{
     background-image: url(images/work.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 25%;
     height: 200px;
 }
 .work h1{
@@ -141,5 +198,20 @@ h2{
 .foot{
     width: 100%;
     height: 200px;
-    background-color: whitesmoke;
+    background-color: white;
+    text-align: center;
+}
+.last{
+    margin-top: 5%;
+    line-height: 5px;
+}
+h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #696871;
+}
+.last h3{
+    font-size: 30px;
+    color: #363958;
+
 }
