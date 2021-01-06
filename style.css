@@ -95,14 +95,15 @@ h2{
 .combine{
     display: inline-block;
     background-color:whitesmoke;
-    height: 400px;
+    height: 650px;
     width: 100%;   
-    margin-top: 7%;
+    margin-top: 5%;
 }
 .combine h2{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
+    margin-top: 10%;
 }
 .combine h3{
     color: #363958;
@@ -118,11 +119,12 @@ h2{
 }
 .gym-top{
     background-color:white;
-    height: 80%;
+    height: 75%;
     width: 25%;
     float: left;
     border-radius: 15px;
     margin-left: 2%;
+    
 }
 #margin{
     margin-left: 12%;
