@@ -1,4 +1,33 @@
-
+header{
+    margin-left: 800px;
+}
+ul
+{
+    width: 500px;
+}
+li{
+    display:inline;
+    text-decoration: none;
+    margin-left: 0px;
+    position: relative;
+    top: 30px;
+}
+li a{
+    background-color: white;
+    color: #3C3C3C;
+}
+.header1{
+    position: relative;
+    right: 25px;
+}
+.Portfolio{
+    position: relative;
+    right: 50px;
+}
+.contact{
+    position: relative;
+    right: 80px;
+}
 .mark{
     color: #FF8367;
 }
@@ -8,13 +37,26 @@
     padding: 1%;
     float: left;
     margin-top: 5%;
-    
-
+}
+#about{
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 60px;
 }
 h1{
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 80px;
     line-height: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+#fullstack{
+    position: relative;
+    top: 30px;
 }
 .hello{
     color: #363958;
@@ -26,18 +68,18 @@ h1{
     color: white;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    opacity: .8;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .about-me img{
     width: 55%;
 }
 h2{
     color:#363958;
-    font-size: 25px;
+    font-size: 48px;
     text-transform: uppercase;
-
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
 }
 .gym{
     width: 100%;
@@ -47,15 +89,12 @@ h2{
 }
 .gym img{
     width: 80%;
-
 }
 .tour{
     width: 100%;
     float: left;
     padding: 5%;
     margin-left: 1%;
-    
-    
 }
 .tour img{
     width: 80%;
@@ -65,12 +104,9 @@ h2{
     float: left;
     padding: 5%;
     margin-left: 1%;
-
-    
 }
 .song img{
     width: 80%;
-    
 }
 .combine{
     display: inline-block;
@@ -78,13 +114,11 @@ h2{
     height: 400px;
     width: 100%;   
     margin-top: 7%;
-    
-    
 }
 .combine h2{
-
     text-align: center;
-    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
 }
 .combine h3{
     color: #363958;
@@ -99,12 +133,11 @@ h2{
     color: #F46060;
 }
 .gym-top{
-    background-color:white;
-    
+    background-color:whitesmoke;
     height: 80%;
     width: 25%;
     float: left;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-left: 2%;
 }
 #margin{
@@ -114,38 +147,38 @@ h2{
     display: inline-block;
     height: 350px;
     width: 80%;
-    
+    line-height: 14px;
     margin-top: 10%;
     background-color: white;
-
-    
+    margin-left: 5%;
 }
 .skills h3{
     text-align: center;
     margin-left: 100px;
     text-transform: uppercase;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
 }
 .skills p{
     text-align: left;
-    margin-left: 350px;
-    font-size: 25px;
-    font-style:oblique;
-    color: black;
+    margin-left: 340px;
+    font-size: 40px;
+    font-style: italic;
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 .hire{
     color: tomato;
 }
 #hand{
     width: 20%;
-    
-}
+    }
 #html{
     width: 28%;
     margin-top: 10px;
-    
-}
+    }
 #css{
     margin-left: 20px;
 }
@@ -154,8 +187,7 @@ h2{
     left:260px;
     bottom: 95px;
     width: 38%;
-    
-}
+    }
 .html{
     width:30%;
     float: left;
@@ -163,55 +195,61 @@ h2{
     position: relative;
     left: 150px;
     margin-top: 3%;
-    
-}
+    }
 .html img{
     width: 20%;
 }
-
-
 .work{
     background-image: url(images/work.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 25%;
+    margin-top: 10%;
     height: 200px;
 }
 .work h1{
-    
     padding-top: 13%;
     padding-left: 10%;
     color: whitesmoke;
-    font-family: sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
 }
 .work a{
-   
-    position: relative;
+       position: relative;
     left: 75%;
-    bottom: 22%;
+    bottom: 35%;
     padding-top: 13px;
-    padding-bottom: 13px;
-    
+    padding-bottom: 13px;    
 }
 .foot{
     width: 100%;
     height: 200px;
     background-color: white;
     text-align: center;
+    margin-top: 8%;
 }
 .last{
     margin-top: 5%;
     line-height: 5px;
 }
-h5{
-    font-size: 15px;
+.last h5{
+    font-size: 24px;
     text-transform: uppercase;
     color: #696871;
+    font-family: 'Bebas Neue', cursive;
 }
 .last h3{
-    font-size: 30px;
+    font-size: 36px;
     color: #363958;
-
+    font-family: 'Roboto', sans-serif;
+}
+.icon{
+    width: 30%;
+    margin-left: 34%;
+    padding-right: 50px;    
+}
+.icon img{
+    width: 42px;
+    padding: 10px;
 }
