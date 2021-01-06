@@ -1,8 +1,9 @@
-header{
-    margin-left: 800px;
+body{
+    margin: 0px;
 }
 ul
 {
+    margin-left: 800px;
     width: 500px;
 }
 li{
@@ -15,6 +16,7 @@ li{
 li a{
     background-color: white;
     color: #3C3C3C;
+    font-weight: bold;
 }
 .header1{
     position: relative;
